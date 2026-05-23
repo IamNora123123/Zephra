@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ZEPHRA | Waste Segregation</title>
+  <title>ZEPHRA | Solutions</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-
+  <link rel="icon" type="image/png" href="pbl_image/logo_notext.png">
   <style>
     *{
       font-family: 'Inria Serif', serif;
@@ -204,16 +204,15 @@
 
     /* solution 2 */
     .solution_small_boxes{
-      background-color: #f8f5f1;
-      padding: 8px 14px;
-      border-radius: 5px;
-      display: flex;
+      background-color: white !important;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+      display: inline-flex;
       align-items: center;
-      margin-left: 5px;
-      margin-right: 5px;
-      width: fit-content;
-      box-shadow: 1px 2px 9px rgba(0,0,0,0.1);
-      font-size: 14px;
+      gap: 10px;
+      margin: 8px;
+      font-size: 15px;
     }
 
     .card-box{
@@ -222,8 +221,8 @@
       width: 200px;
     }
 
-    .card-box .icon-circle{
-      background-color: rgb(163,203,83);
+    .icon-circle{
+      background-color: rgb(163, 203, 83);
       width: 60px;
       height: 60px;
       border-radius: 100%;
@@ -356,19 +355,7 @@
             height: 100%;
             color: #2b2826;
         }
- 
-        .icon-circle {
-            width: 55px;
-            height: 55px;
-            border-radius: 50%;
-            background: #9ca670;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 30px;
-            font-size: 22px;
-            color: #f7f5f0;
-        }
+
  
         .card-title {
             font-size: 32px;
@@ -914,16 +901,6 @@
           margin-right: 20px;
         }
     }
-    .solution_small_boxes{
-      background-color: rgb(163,203,83);
-      font-size: 20px;
-      width: 270px;
-
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-    }
     .nav-link{
         color: white;
     }
@@ -972,13 +949,6 @@
                         <a href="#" class="text-white text-decoration-none" data-bs-toggle="dropdown">
                             <i class="bi bi-person-circle fs-1"></i>
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end p-3 border-0 shadow rounded-4" style="width: 260px;">
-                            <li><a class="dropdown-item rounded-3 py-3 d-flex align-items-center gap-3" href="#"><i class="bi bi-person"></i> Profile</a></li>
-                            <li><a class="dropdown-item rounded-3 py-3 d-flex align-items-center gap-3" href="#"><i class="bi bi-chat"></i> Community</a></li>
-                            <li><a class="dropdown-item rounded-3 py-3 d-flex align-items-center gap-3" href="#"><i class="bi bi-gear"></i> Settings</a></li>
-                            <li><a class="dropdown-item rounded-3 py-3 d-flex align-items-center gap-3" href="#"><i class="bi bi-info-circle"></i> Help Center</a></li>
-                            <li><a class="dropdown-item rounded-3 py-3 d-flex align-items-center gap-3" href="#"><i class="bi bi-box-arrow-right"></i> Logout</a></li>
-                        </ul>
                     </div>
                 </div>
             </div>
@@ -1133,29 +1103,40 @@
           <h3 class="sub-title">Types of Materials</h3>
 
           <div class="d-flex flex-wrap gap-3 mb-4">
+
             <div class="solution_small_boxes">
-              <i class="bi bi-file-earmark" style="margin-right: 5px;"></i> Paper
+              <i class="bi bi-file-earmark" style="margin-right: 5px;"></i>
+              Paper
+            </div>
+
+            <div class="solution_small_boxes">
+              <i class="bi bi-box" style="margin-right: 5px;"></i>
+              Cardboard
+            </div>
+
+            <div class="solution_small_boxes">
+              <i class="bi bi-cup-straw" style="margin-right: 5px;"></i>
+              Plastic
             </div>
             <div class="solution_small_boxes">
-              <i class="bi bi-box" style="margin-right: 5px;"></i> Cardboard
+              <i class="bi bi-cup" style="margin-right: 5px;"></i>
+              Glass
             </div>
             <div class="solution_small_boxes">
-              <i class="bi bi-cup-straw" style="margin-right: 5px;"></i> Plastic
+              <i class="bi bi-gear" style="margin-right: 5px;"></i>
+              Metal
             </div>
             <div class="solution_small_boxes">
-              <i class="bi bi-cup" style="margin-right: 5px;"></i> Glass
+              <i class="bi bi-phone-vibrate" style="margin-right: 5px;"></i>
+              Electronic waste
             </div>
             <div class="solution_small_boxes">
-              <i class="bi bi-gear" style="margin-right: 5px;"></i> Metal
+              <i class="bi bi-pin" style="margin-right: 5px;"></i>
+              Textiles
             </div>
             <div class="solution_small_boxes">
-              <i class="bi bi-phone-vibrate" style="margin-right: 5px;"></i> Electronic waste
-            </div>
-            <div class="solution_small_boxes">
-              <i class="bi bi-pin" style="margin-right: 5px;"></i> Textiles
-            </div>
-            <div class="solution_small_boxes">
-              <i class="bi bi-fork-knife" style="margin-right: 5px;"></i> Organic waste
+              <i class="bi bi-fork-knife" style="margin-right: 5px;"></i>
+              Organic waste
             </div>
           </div>
 
@@ -2067,7 +2048,7 @@
  
                 <p class="inria-serif-regular">
                     <i class="bi bi-envelope px-1"></i>
-                    zephra-waste_management.com
+                    contact@zephra.com 
                 </p>
  
             </div>
@@ -2090,11 +2071,11 @@
  
                 <h5 class="text-warning inria-serif-regular">Resources</h5>
  
-                <a href="#"><p class="inria-serif-regular">Waste Segregation</p></a>
-                <a href="#"><p class="inria-serif-regular">Recycling Programs</p></a>
-                <a href="#"><p class="inria-serif-regular">Composting</p></a>
-                <a href="#"><p class="inria-serif-regular">Reduce Plastic</p></a>
-                <a href="#"><p class="inria-serif-regular">Clean-up Campaigns</p></a>
+                <a href="https://wastemission.com/blog/the-importance-of-waste-segregation/"><p class="inria-serif-regular">Waste Segregation</p></a>
+                <a href="https://www.zerowastesg.com/lets-recycle-together"><p class="inria-serif-regular">Recycling Programs</p></a>
+                <a href="https://gardeningsg.nparks.gov.sg/page-index/horticulture-techniques/composting/"><p class="inria-serif-regular">Composting</p></a>
+                <a href="https://www.unep.org/plastic-pollution"><p class="inria-serif-regular">Reduce Plastic</p></a>
+                <a href="https://theoceancleanup.com/"><p class="inria-serif-regular">Clean-up Campaigns</p></a>
  
             </div>
  
@@ -2103,9 +2084,9 @@
  
                 <h5 class="text-warning inria-serif-regular">Support</h5>
  
-                <a href="#"><p class="inria-serif-regular">Help Center</p></a>
-                <a href="#"><p class="inria-serif-regular">Contact Support</p></a>
-                <a href="#FAQ"><p class="inria-serif-regular">FAQ</p></a>
+                <a href="contact.html"><p class="inria-serif-regular">Help Center</p></a>
+                <a href="contact.html"><p class="inria-serif-regular">Contact Support</p></a>
+                <a href="index.html"><p class="inria-serif-regular">FAQ</p></a>
  
                 <a href="https://www.facebook.com/"><i class="bi bi-facebook fs-3 me-3"></i></a>
                 <a href="https://web.telegram.org/"><i class="bi bi-telegram fs-3 me-3"></i></a>
@@ -2121,11 +2102,11 @@
         <div class="row">
  
             <div class="col-md-6">
-                <p class="inria-serif-regular">© 2026 Waste Management Project</p>
+                <p class="inria-serif-regular">© 2026 Zephra - All rights reserved</p>
             </div>
  
             <div class="col-md-6 text-md-end">
- 
+                <a href="https://canva.link/sg2y42asy6dqidc"><span class="me-3 inria-serif-regular">Reference</span></a>
                 <a href="#"><span class="me-3 inria-serif-regular">Privacy Policy</span></a>
                 <a href="#"><span class="me-3 inria-serif-regular">Terms of Service</span></a>
                 <a href="#"><span class="inria-serif-regular">Cookie Policy</span></a>
